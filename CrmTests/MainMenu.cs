@@ -9,7 +9,7 @@ namespace CrmTests
     {
         private IWebDriver driver;
 
-        [FindsBy(How = How.Id, Using = "Tab1")]
+        [FindsBy(How = How.Id, Using = "Tab1")] 
         private IWebElement mainTile;
         [FindsBy(How = How.Id, Using = "Tab1")]
         private IWebElement mainTileCheck;
